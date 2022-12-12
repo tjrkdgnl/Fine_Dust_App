@@ -13,4 +13,7 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Fine Dust"
-include ':app'
+include(":app")
+include(":core-model")
+include(":core-network")
+include(":core-data")
